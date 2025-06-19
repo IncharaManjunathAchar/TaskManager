@@ -1,5 +1,5 @@
 FRONDTEND setup
-cd ..  # Go back to project root
+\b cd ..  # Go back to project root
 npm create vite@latest frontend --template react
 cd frontend
 npm install axios react-router-dom @mui/material @mui/icons-material @emotion/react @emotion/styled
