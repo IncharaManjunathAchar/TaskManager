@@ -1,24 +1,30 @@
 ## Frontend Setup
 
 ```bash
-# Go back to the project root
-cd ..
+cd ..  # Go back to the project root
 
-# Create a Vite React app
-npm create vite@latest frontend --template react
+npm create vite@latest frontend --template react  
+# Create a new Vite project named 'frontend' using the React template
 
-# Move into the frontend directory
-cd frontend
+cd frontend  # Move into the newly created frontend directory
 
-# Install core dependencies
-npm install axios react-router-dom @mui/material @mui/icons-material @emotion/react @emotion/styled
+# Install core libraries:
+npm install axios react-router-dom @mui/material @mui/icons-material @emotion/react @emotion/styled  
+# axios – for HTTP requests  
+# react-router-dom – for client-side routing  
+# @mui/material – Material UI components  
+# @mui/icons-material – Material UI icons  
+# @emotion/react & @emotion/styled – for styling (required by MUI)
 
-# Install drag-and-drop support
-npm install react-beautiful-dnd
+# Add drag-and-drop support:
+npm install react-beautiful-dnd  
+# Enables smooth drag-and-drop interactions in the UI
 
-# Install React Query for data fetching
-npm install @tanstack/react-query
+# Add React Query for advanced data fetching:
+npm install @tanstack/react-query  
+# Handles server-state caching, background updates, and syncing
 
-# Install React Hot Toast for notifications
-npm install react-hot-toast
+# Add toast notification support:
+npm install react-hot-toast  
+# Shows lightweight toast messages for feedback (e.g., success, error)
 ```
